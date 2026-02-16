@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #F9FAFB !important;
+}
+
+/*! Start Header */
+.header .nav {
+  font-size: 18px !important;
+  font-weight: 500;
+  color: #3D4859 !important;
+  
+}
+
+.header .nav .nav-items .nav-link{
+    color: #3D4859 !important;
+
+}
+
+.header .nav .nav-items .active{
+  color:#1447E6 !important;
+  text-decoration: underline;
+
+  
+}
+
+/*! End Header */
+
+
+/*!  Start Footer */
+.footer .nav-link{
+  color: #fff !important;
+}
+.footer .icons-social .fb:hover , .footer .icons-social .ln:hover{
+  background-color: #1447E6 !important;
+  transition: all ease-in-out 0.4s !important;
+}
+.footer .nav-link:hover{
+  color: #1447E6 !important;
+  transition: all ease-in-out 0.3s !important;
+}
+
+.footer .icons-social .tw:hover{
+  background-color: #50A2FF !important;
+  transition: all ease-in-out 0.4s !important;
+}
+.footer .icons-social .in:hover{
+  background-color: #E60076 !important;
+  transition: all ease-in-out 0.4s !important;
+}
+/*!  End Footer */
+
+
+
+.about .card:hover{
+  box-shadow: 0 2px 0 0  rgba(255, 255, 255, 0.678)  !important;
+  transition: all 0.1s ;
+  transform: scale(.99);
+}
+
+.browse-product{
+  background: linear-gradient( to right , rgb(22, 87, 240) 0% , rgb(25, 60, 185) 100%);
+}
